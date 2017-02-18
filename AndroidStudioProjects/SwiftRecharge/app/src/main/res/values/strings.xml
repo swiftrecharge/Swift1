@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SwiftRecharge</string>
+    <string name="email_hint"> Enter your email adddress </string>
+    <string name="password_hint"> Enter your password</string>
+    <string name="first"> First name</string>
+    <string name="last"> Last name</string>
+    <string name="address"> Email address</string>
+    <string name="contact"> Mobile Number </string>
+    <string name="job"> Occupation</string>
+    <string name="phone_num"> Enter your mobile money number</string>
+    <string name="create_pass"> enter  a password</string>
+    <string name="confirm_pass"> confirm  password</string>
+    <string name="location"> Type your location</string>
+    <string name="snapmeter">snap meter</string>
+    <string name="camera_settings"> Settings</string>
+
+    <string name="camera_button"> Snap Meter</string>
+
+
+    <string-array name="Mobile_money">
+        <item > Please select Mobile Money Wallet</item>
+        <item> MTN Mobile Money</item>
+        <item> Tigo Cash</item>
+        <item> Airtel Money</item>
+        <item> Glo Money</item>
+        <item> Vodafone Cash</item>
+
+    </string-array>
+
+    <string-array name="Credit_card_payment">
+        <item>Please select your credit card option </item>
+        <item> Visa</item>
+        <item> Master Card</item>
+    </string-array>
+</resources>
+
