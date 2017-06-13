@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sixtus.com.homenavigation.HomePage"
+    android:orientation="vertical"
+    android:background="@drawable/ecg"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:text="SwiftRecharge"
+        android:textAlignment="center"
+        android:textSize="100sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+
+        <Button
+            android:text="Log In"
+            android:textSize="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/login"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginBottom="100dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:text="Sign Up"
+            android:textSize="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:padding="10dp"
+            android:id="@+id/signup"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@android:color/transparent" />
+
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sixtus.com.homenavigation.HomePage"
+    android:orientation="vertical"
+    android:background="@drawable/ecg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SwiftRecharge"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:visibility="visible"
+        android:layout_marginLeft="40dp"
+        android:padding="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/login"
+        android:onClick="Login"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Sign Up"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-68dp"
+        android:visibility="visible"
+        android:id="@+id/signup"
+        android:onClick="Signup"/>
+
+</LinearLayout> -->

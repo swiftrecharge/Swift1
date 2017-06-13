@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SwiftRecharge</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="meter1">First Meter Added</string>
+    <string name="meter2">Second Meter Added</string>
+    <string name="meter3">Third Meter Added</string>
+    <string name="meter4">Fourth Meter Added</string>
+    <string name="meter5">Fifth Meter Added</string>
+    <string name="meter6">Sixth Meter Added</string>
+    <string name="meter7">Seventh Meter Added</string>
+    <string name="meter8">Eighth Meter Added</string>
+    <string name="button_text">Capture Meter number</string>
+    <string name="text_hint">Meter number will appear here</string>
+
+
+
+    <string name="update_welcome_text">Update Your Details</string>
+    <string-array name="details_list">
+        <item>Change Password</item>
+        <item>Update Email Address</item>
+        <item>Update Your Occupation</item>
+        <item>Update Your Mobile Contact</item>
+        <item>Change/Update Payment Details</item>
+    </string-array>
+    <string name="title_activity_user_password">Update Password</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_current_password">Enter Current Password</string>
+    <string name="prompt_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="update">Update</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- user mail update -->
+    <string name="current_email">Your Current Email is: </string>
+    <string name="new_email">Enter Your New Email Address</string>
+    <string name="confirm_new_email">Confirm New Email Address</string>
+    <string name="email_update_button">Update Email Address</string>
+    <string name="add_meter">Add This Meter Number</string>
+
+    <!-- payment details -->
+    <string-array name="wallet">
+        <item>Please Select Mobile Money Wallet</item>
+        <item>Airtel Money</item>
+        <item>Glo Mobile Money</item>
+        <item>MTN Mobile Money</item>
+        <item>Tigo Cash</item>
+        <item>Vodafone Cash</item>
+    </string-array>
+
+</resources>

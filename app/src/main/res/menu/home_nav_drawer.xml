@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!-- home, personal info, accounts, manage meters, buy credit -->
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item android:id="@+id/nav_payment_wallet"
+            android:title="MyAccount"
+            android:icon="@drawable/ic_action_person" />
+
+        <item android:id="@+id/nav_manage_meters"
+            android:title="Manage Meters"
+            android:icon="@drawable/ic_menu_camera" />
+
+        <item android:id="@+id/nav_buy_credit"
+            android:title="Buy Credit"
+            android:icon="@drawable/ic_action_new_label"/>
+
+        <item android:id="@+id/nav_personal_info"
+            android:icon="@drawable/ic_action_edit"
+            android:title="Edit Personal Details" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Us A Message" />
+            <item android:id="@+id/nav_rate_review"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Rate and Review" />
+        </menu>
+    </item>
+    <item android:title="Tools">
+        <menu>
+            <item android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/ic_action_settings" />
+            <item android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/ic_action_about"/>
+            <item android:id="@+id/nav_help"
+                android:icon="@drawable/ic_action_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>

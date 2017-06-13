@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sixtus.com.homenavigation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pattern"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeNav"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".HomeNav"/> -->
+        <activity
+            android:name=".UpdateDetails"
+            android:parentActivityName=".HomeNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeNav" />
+        </activity>
+        <!-- this is for sign up amd login -->
+        <activity
+            android:name=".CreateAccount"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".CreatePassword"
+            android:parentActivityName=".CreateAccount" />
+        <activity
+            android:name=".UserPassword"
+            android:parentActivityName=".UpdateDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UpdateDetails" />
+        </activity>
+        <activity
+            android:name=".UserEmail"
+            android:parentActivityName=".UpdateDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UpdateDetails" />
+        </activity>
+        <activity
+            android:name=".UserOccupation"
+            android:parentActivityName=".UpdateDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UpdateDetails" />
+        </activity>
+        <activity
+            android:name=".UserMobileContact"
+            android:parentActivityName=".UpdateDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UpdateDetails" />
+        </activity>
+        <activity
+            android:name=".PaymentDetails"
+            android:parentActivityName=".UpdateDetails">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UpdateDetails" />
+        </activity>
+        <activity
+            android:name=".ManageMeters"
+            android:parentActivityName=".HomeNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeNav" />
+        </activity>
+        <activity
+            android:name=".BuyCredit"
+            android:parentActivityName=".HomeNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeNav" />
+        </activity>
+        <activity android:name=".OverLay" />
+        <activity android:name=".AddMeter"
+            android:parentActivityName=".ManageMeters">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ManageMeters"/>
+        </activity>
+    </application>
+
+</manifest>
